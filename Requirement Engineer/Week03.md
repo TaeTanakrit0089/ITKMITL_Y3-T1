@@ -33,8 +33,6 @@ CASE Tool ย่อมาจาก **Computer-Aided Software Engineering Tool** 
 
 # Module 2: Introduction to RMUC (Requirement Management Use-Cases)
 
-
-
 ## Objectives:
 
 * Define requirements management.
@@ -49,12 +47,12 @@ CASE Tool ย่อมาจาก **Computer-Aided Software Engineering Tool** 
 
 * **Requirement:** A condition or capability to which the system must conform.
 * **Requirements management:** การจัดการความต้องการ เป็นกระบวนการที่ประกอบไปด้วย
-  * Finding (ค้นหา)
-  * Eliciting (ดึงออกมา)
-  * Organizing (การจัดการ)
-  * Documenting (การทำเอกสาร)
-  * Managing Requirements ()
-  * Establishing and maintaining agreement between customer/user and the project team on the changing requirements.
+    * Finding (ค้นหา)
+    * Eliciting (ดึงออกมา)
+    * Organizing (การจัดการ)
+    * Documenting (การทำเอกสาร)
+    * Managing Requirements ()
+    * Establishing and maintaining agreement between customer/user and the project team on the changing requirements.
 
 ---
 
@@ -73,27 +71,38 @@ System Requirements
 ## Qualities of a Software Requirement
 
 * Verifiable (สามารถตรวจสอบได้)
-* Ranked for importance and stability ()
-* Modifiable
-* Traceable
-* Understandable
-* Correct
-* Complete
-* Consistent
-* Unambiguous
+* Ranked for importance and stability (จัดลำดับความสำคัญได้)
+    * ต้องรู้ว่าตัวไหนสำคัญก่อน
+    * ถ้าตัวไหนทำไม่ทันก็ต้องไปคุยกับลูกค้าให้เรียบร้อย
+* Modifiable (สามารถแก้ไขได้)
+* Traceable (สามารถติดตามได้)
+    * งานต้องตอบสนองกับ needs
+    * งานไม่ดีคืองานที่ทำเกินขอบเขตที่กำหนดไว้ ต้องไม่มีเพิ่ม ทำงานที่กำหนดเท่านั้น
+* Understandable (ต้องเข้าใจได้)
+* Correct (ต้องถูกต้อง)
+* Complete (ต้องครบถ้วน)
+* Consistent (ต้องคงที่)
+* Unambiguous (ไม่กำกวม)
+    * ต้องคิดได้ตรงกันหมด
 
 ---
 
 ## Qualities of a Requirement: Verifiable
 
-* A requirement is verifiable if there exists a finite, cost-effective process to check if the product meets the requirement.
+A requirement is verifiable if there exists a finite, cost-effective process to check if the product meets the
+requirement.
 
+Requirement ที่ได้มาจะต้องสามารถตรวจสอบได้ด้วยคนหรือโปรแกรมคอมพิวเตอร์ ซึ่งตรวจสอบว่า Product นั้นตรงตาม Requirement ไหม
 **Examples:**
 
 * The system supports up to 1,000 simultaneous users. **(Verifiable)**
 * The system shall respond to an arbitrary query in 500 msec. **(Verifiable)**
 * The color shall be a pleasing shade of green. **(Not verifiable)**
+    * ไม่รับตรงๆ เพราะว่าไม่รู้ว่าเป็นสีโทนไหน สีเขียวเบอร์อะไร
 * The system shall be available 24 X 7. **(Verifiable)**
+    * 24 x 7: ทำงานตลอด 24 ชั่วโมง 7 วัน
+    * ต้องมี Instance หลายๆ ตัวในการรัน
+    * ราคาอาจจะเพิ่มสูงขึ้น
 * The system shall export view data in comma-separated format. **(Verifiable)**
 
 ---
@@ -116,7 +125,8 @@ Use Cases & Supplementary Requirements
 
 ## Qualities of a Requirement: Unambiguous
 
-* A requirement is unambiguous if it has only one interpretation.
+Requirement ต้องไม่กำกวม มีความหมายแค่ความหมายเดียว
+- ถามคำถามเดียวต้องตอบเหมือนกันทั้ง 3 คน
 
 **Example:**
 
@@ -137,6 +147,7 @@ Use Cases & Supplementary Requirements
                         v
                 Complexity 
 ```
+
 The "sweet spot" lies where the requirement is clear, understandable and avoids ambiguity.
 
 ---
@@ -156,19 +167,19 @@ The "sweet spot" lies where the requirement is clear, understandable and avoids 
 
 * **Design:** How to accomplish the requirements. This is covered in the design model.
 * **Verification:** How you know the requirements have been met. This is specified in the test model.
-* **Project Data:** When the requirements are met.  This is detailed in the software development plan.
+* **Project Data:** When the requirements are met. This is detailed in the software development plan.
 
 ---
 
 ## Requirements Management Is Not Easy, Because…
 
 * Requirements:
-  * Are not always obvious.
-  * Can come from many sources.
-  * May not always be easy to express clearly.
-  * Relate to one another and to other software engineering deliverables.
-  * Have unique properties and/or property values.
-  * **Change.**
+    * อาจจะไม่ชัดเจนเสมอไป
+    * สามารถมาจากหลายๆ แหล่งข้อมูลได้
+    * อาจจะไม่สามารถที่จะอธิบายให้เข้าใจได้
+    * Relate to one another and to other software engineering deliverables.
+    * มีค่าเจาะจงเฉพาะตัวของมัน
+    * **Change.**
 
 * A large number of requirements is unmanageable without control.
 
@@ -177,9 +188,9 @@ The "sweet spot" lies where the requirement is clear, understandable and avoids 
 ## Keys to Effective Requirements Management
 
 * Maintain a clear statement of the requirements with:
-  * Good quality requirements.
-  * Applicable attributes for each requirement type.
-  * Traceability to other requirements and project artifacts.
+    * Good quality requirements.
+    * Applicable attributes for each requirement type.
+    * Traceability to other requirements and project artifacts.
 
 **Goal:** Deliver quality products on time and on budget that meet the customer’s real needs.
 
@@ -190,38 +201,38 @@ The "sweet spot" lies where the requirement is clear, understandable and avoids 
 **FURPS+ Model:**
 
 * **Functionality:**
-  * Feature set
-  * Capabilities
-  * Generality
-  * Security
+    * Feature set
+    * Capabilities
+    * Generality
+    * Security
 * **Usability:**
-  * Human factors
-  * Aesthetics
-  * Consistency
-  * Documentation
-* **Reliability:**
-  * Frequency/Severity of Failure
-  * Recovery
-  * Predictability
-  * Accuracy
-  * MTBF
-* **Performance:**
-  * Speed
-  * Efficiency
-  * Resource Usage
-  * Throughput
-  * Response Time
+    * Human factors: กฎ 3 คลิก, ความยาวเว็ปที่ยาวเกินไป (ที่่ดีคือความยาว 2 หน้า A4)
+    * Aesthetics
+    * Consistency: เกี่ยวข้องกับความสอดคล้องกัน
+    * Documentation: พวกเอกสาร
+* **Reliability: (ความน่าเชื่อถือ)**
+    * Frequency/Severity of Failure: โอกาสในการเกิดข้อผิดพลาด
+    * Recovery: การกู้คืน, สามารถกูคืนได้ภายในกี่นาที
+    * Predictability: การคาดเดา
+    * Accuracy: ความแม่นยำ
+    * MTBF
+* **Performance: (ประสิทธิภาพ)**
+    * Speed (ประสิิทธิภาพ): วัดที่กระบวนการทำงาน
+    * Efficiency (ประสิทธิผล): วัดที่ผลลัพธ์
+    * Resource Usage: การใช้ทรัพยากรถายมนเครื่อง
+    * Throughput: 
+    * Response Time:
 * **Supportability:**
-  * Testability
-  * Extensibility
-  * Adaptability
-  * Maintainability
-  * Compatibility
-  * Configurability
-  * Serviceability
-  * Installability
-  * Localizability
-  * Robustness
+    * Testability: สามารถตรวจสอบอะไรได้บ้าง
+    * Extensibility: ความสามารถในการต่อขยาย
+    * Adaptability:
+    * Maintainability: การบำรุงรักษา
+    * Compatibility: สามารถทำงานได้กับ Windows, Unix ไหม
+    * Configurability
+    * Serviceability
+    * Installability
+    * Localizability
+    * Robustness
 
 ---
 
@@ -258,6 +269,7 @@ Customer/User Community <-----> Requirements Surrogate (e.g., Business Analyst)
                 v
                 Goal
 ```
+
 Effective communication and a shared understanding of requirements are essential.
 
 ---
@@ -265,8 +277,12 @@ Effective communication and a shared understanding of requirements are essential
 ## What Factors Contribute to Project Success?
 
 * User Involvement
+  * User เข้ามาช่วยในการทำงานทำให้ระบบพัฒนาได้ง่ายขึ้น
 * Executive Management Support
+  * การ support จาก management level
 * Clear Statement of Business Objectives
+  * รู้ตัวไหมว่าต้องการเป้าหมายอย่างไน
+  * ถ้ามีเป้าหมายที่ชัดเจนจะทำให้ได้ requirement ที่ง่ายขึ้น
 
 **However, Statistics Show:**
 
@@ -294,20 +310,20 @@ Effective communication and a shared understanding of requirements are essential
 * **Problem analysis:** Understand and gain stakeholder agreement on the problem.
 * **Requirements elicitation:** Identify actors and use cases.
 * **Requirements management:**
-  * Specify requirements completely.
-  * Manage expectations, changes, and errors.
-  * Control scope creep.
-  * Involve all team members.
+    * Specify requirements completely.
+    * Manage expectations, changes, and errors.
+    * Control scope creep. (ควบตุมไม่ให้ออกนอกขอบเขต)
+    * Involve all team members.
 
 ---
 
 ## Involve the Whole Team in Requirements
 
 * Developers, testers, writers:
-  * Help develop and monitor requirements management practices.
-  * Verify elicitation processes and document requirements.
-  * Participate in reviews and the Change Control Board (CCB).
-  * Review traceability outcomes and verify quality, testability, and completeness.
+    * Help develop and monitor requirements management practices.
+    * Verify elicitation processes and document requirements.
+    * Participate in reviews and the Change Control Board (CCB).
+    * Review traceability outcomes and verify quality, testability, and completeness.
 
 ---
 
