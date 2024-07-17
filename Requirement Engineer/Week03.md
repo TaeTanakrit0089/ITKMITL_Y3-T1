@@ -126,6 +126,7 @@ Use Cases & Supplementary Requirements
 ## Qualities of a Requirement: Unambiguous
 
 Requirement ต้องไม่กำกวม มีความหมายแค่ความหมายเดียว
+
 - ถามคำถามเดียวต้องตอบเหมือนกันทั้ง 3 คน
 
 **Example:**
@@ -220,7 +221,7 @@ The "sweet spot" lies where the requirement is clear, understandable and avoids 
     * Speed (ประสิิทธิภาพ): วัดที่กระบวนการทำงาน
     * Efficiency (ประสิทธิผล): วัดที่ผลลัพธ์
     * Resource Usage: การใช้ทรัพยากรถายมนเครื่อง
-    * Throughput: 
+    * Throughput:
     * Response Time:
 * **Supportability:**
     * Testability: สามารถตรวจสอบอะไรได้บ้าง
@@ -277,12 +278,12 @@ Effective communication and a shared understanding of requirements are essential
 ## What Factors Contribute to Project Success?
 
 * User Involvement
-  * User เข้ามาช่วยในการทำงานทำให้ระบบพัฒนาได้ง่ายขึ้น
+    * User เข้ามาช่วยในการทำงานทำให้ระบบพัฒนาได้ง่ายขึ้น
 * Executive Management Support
-  * การ support จาก management level
+    * การ support จาก management level
 * Clear Statement of Business Objectives
-  * รู้ตัวไหมว่าต้องการเป้าหมายอย่างไน
-  * ถ้ามีเป้าหมายที่ชัดเจนจะทำให้ได้ requirement ที่ง่ายขึ้น
+    * รู้ตัวไหมว่าต้องการเป้าหมายอย่างไน
+    * ถ้ามีเป้าหมายที่ชัดเจนจะทำให้ได้ requirement ที่ง่ายขึ้น
 
 **However, Statistics Show:**
 
@@ -342,8 +343,15 @@ Effective communication and a shared understanding of requirements are essential
 ## Review:
 
 1. What is a requirement?
+    - เงื่อนไขหรือความสามารถที่ระบบพัฒนาขึ้นต้องมี
 2. What are some characteristics of well-written requirements?
+    - ตรวจสอบได้, จัดลำดับความสำคัญได้, แก้ไขได้, ติดตามได้, เข้าใจได้, ถูกต้อง, ครบถ้วน, คงที่, และไม่กำกวม
 3. What is requirements management?
+    - กระบวนการจัดการข้อกำหนดต่างๆ ตั้งแต่การค้นหา ดึงข้อมูล จัดทำเอกสาร ไปจนถึงการจัดการข้อตกลงกับลูกค้า
 4. What factors contribute to project success?
+    - การมีส่วนร่วมของผู้ใช้งาน, การสนับสนุนจากผู้บริหาร, และเป้าหมายทางธุรกิจที่ชัดเจน
 5. What team members are involved in requirements management and how?
-6. How would you explain the 1-10-100 rule? 
+    - นักพัฒนา, ผู้ทดสอบ, ผู้เขียนเอกสาร
+6. How would you explain the 1-10-100 rule?
+    - ยิ่งพบข้อผิดพลาดใน Requirement ช่วงท้ายๆ ของการพัฒนาซอฟต์แวร์ ต้นทุนในการแก้ไขจะสูงขึ้นแบบทวีคูณ ดังนั้น
+      การตรวจสอบและแก้ไขข้อผิดพลาดตั้งแต่เนิ่นๆ จึงคุ้มค่ากว่ามาก
