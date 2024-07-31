@@ -1,4 +1,5 @@
 # Module 3: Introduction to Use-Case Modeling
+
 ## Objectives:
 
 * Define key concepts of use-case modeling
@@ -43,7 +44,8 @@ Users --------> Designer --> Specifier -----> Project
     * Use cases: why the system is used
     * Actors: who/what wants to interact with the system
 
-> The idea behind use cases is to decide what the system will be used for before defining what the system is supposed to do.
+> The idea behind use cases is to decide what the system will be used for before defining what the system is supposed to
+> do.
 
 ## Actors and Use Cases
 
@@ -333,14 +335,17 @@ Actor -----> Goal 1
 
 ## Checkpoints for Use Cases
 
-* The use-case model clearly presents the behavior of the system; it is easy to understand what the system does by reviewing the model.
+* The use-case model clearly presents the behavior of the system; it is easy to understand what the system does by
+  reviewing the model.
 * All use cases have been identified; the use cases collectively account for all require behavior.
 * All functional requirements are mapped to at least one use case.
-* The use-case model contains no superfluous behavior; all use cases can be justified by tracing them back to a functional requirement.
+* The use-case model contains no superfluous behavior; all use cases can be justified by tracing them back to a
+  functional requirement.
 
 ## Checkpoints for Use Cases (cont.)
 
-* Do the use cases have unique, intuitive, and explanatory names so that they cannot be mixed up at a later stage? If not, change their names.
+* Do the use cases have unique, intuitive, and explanatory names so that they cannot be mixed up at a later stage? If
+  not, change their names.
 * Do customers and users alike understand the names and description of the use cases?
 * Does the brief description give a true picture of the use case?
 * Is each use case involved with at least one actor?
@@ -386,9 +391,15 @@ Student ----> Register for Course <----- Course Catalog System
 
 ## Review
 
-1. What are the benefits of use-case modeling?
-2. What is included in a use-case model?
-3. How do you identify actors and use cases?
-4. What is functional decomposition?
-5. Why do we want to avoid functional decomposition?
-6. What are some questions you can ask to test the quality of your model?
+1. **What are the benefits of use-case modeling?**
+    - ทำให้เราเข้าใจระบบที่ต้งอการจะออกแบบ
+2. **What is included in a use-case model?**
+    - Actor, Link, Use Cases
+3. **How do you identify actors and use cases?**
+   - Actors คือ environment
+4. **What is functional decomposition?**
+   - การแบ่งระบบโดยใช้ปัญหาหรือระบบเป็นตัวแบ่งให้เล็กลง
+5. **Why do we want to avoid functional decomposition?**
+   - 
+6. **What are some questions you can ask to test the quality of your model?**
+   - 
